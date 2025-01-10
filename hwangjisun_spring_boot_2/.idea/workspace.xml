@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24241368-71a7-4518-9a7a-9be245b36dc2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/hwangjisun_spring_boot_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_development_springboot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/test/java/me/hwangjisun/springbootdeveloper/controller/BlogApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/ahngeunsu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/ahngeunsu/springbootdeveloper/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/ahngeunsu/springbootdeveloper/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/ahngeunsu/springbootdeveloper/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/QuizController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/ahngeunsu/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/ahngeunsu/springbootdeveloper/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/ahngeunsu/springbootdeveloper/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/test/java/springbootdeveloper/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/test/java/springbootdeveloper/MemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hwangjisun_springboot/chapter00/src/main/java/me/hwangjisun/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hwangjisun_springboot/chapter00/src/main/java/me/hwangjisun/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hwangjisun_springboot/chapter05/20250103.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../hwangjisun_springboot/chapter05/20250103.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web_development_springboot" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rLL54gSoPMPZigdVTmxVBcofTI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/hwangjisun/hwangjisun_spring_boot_2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24241368-71a7-4518-9a7a-9be245b36dc2" name="Changes" comment="" />
+      <created>1736333221788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736333221788</updated>
+    </task>
+    <servers />
+  </component>
+</project>
