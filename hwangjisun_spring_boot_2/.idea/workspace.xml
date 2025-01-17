@@ -1,23 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="24241368-71a7-4518-9a7a-9be245b36dc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/config/TokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/domain/RefreshToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/CreateAccessTokenRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/CreateAccessTokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/repository/RefreshTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/RefreshTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/test/java/me/ahngeunsu/springbootdeveloper/config/jwt/JwtFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/test/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProviderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_modified/src/test/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/config/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/config/jwt/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/domain/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/AddUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/CreateAccessTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/CreateAccessTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/RefreshTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/static/js/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/templates/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/templates/newArticle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/test/java/java/me/ahngeunsu/springbootdeveloper/config/jwt/JwtFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/test/java/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/test/java/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiControllerTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chaper09/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chaper09/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter09_modified/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09_modified/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/domain/RefreshToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/domain/RefreshToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter09_modified/src/test/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09_modified/src/test/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_development_springboot" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_development_springboot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/controller/BlogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_development_springboot/chapter06/src/main/java/me/hwangjisun/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
@@ -43,16 +82,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/hwangjisun/hwangjisun_spring_boot_2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/hwangjisun/hwangjisun_spring_boot_2/chapter09_modified"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

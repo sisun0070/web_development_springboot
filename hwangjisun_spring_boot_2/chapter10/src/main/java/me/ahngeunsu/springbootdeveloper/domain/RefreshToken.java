@@ -26,17 +26,10 @@ public class RefreshToken {
         this.refreshToken = refreshToken;
     }
 
-    // 얘가 어떤 작용을 하는지는 리프레시 토큰 정의 부분 읽어주세요
     public RefreshToken update(String refreshToken) {
         this.refreshToken = refreshToken;
         return this;
     }
-    /*
-        repository package -> RefreshTokenRepository.java
-     */
-
-
-
 }
 
 
