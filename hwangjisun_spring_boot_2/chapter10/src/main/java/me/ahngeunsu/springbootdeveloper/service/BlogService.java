@@ -17,15 +17,16 @@ public class BlogService {
     private final BlogRepository blogRepository;
 
 
-    public Article save(AddArticleRequest request) {
-        return blogRepository.save(request.toEntity());
+    public Article save(AddArticleRequest request,
+                        String userName) {
+        return blogRepository.save(request.toEntity(userName));
     }
 
     public List<Article> findAll() {
         return blogRepository.findAll();
     }
 
-    public Article findById(long id) { // 이 경우 결과값은 하나밖에 없기 때문에 리턴 타입이 Article이어야만 합니다. -> id PK라서
+    public Article findById(long id) {
         return blogRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("not found: " + id));   // 람다식
     }
